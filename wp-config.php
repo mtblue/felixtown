@@ -30,7 +30,7 @@ define('DB_USER', 'b6a4cbbfca056a');
 define('DB_PASSWORD', 'd65a0062');
 
 /** MySQL hostname */
-define('DB_HOST', us-cdbr-iron-east-03.cleardb.net);
+define('DB_HOST', 'us-cdbr-iron-east-03.cleardb.net');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');

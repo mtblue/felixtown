@@ -6,7 +6,7 @@
             <div class="ptitle">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/<?php echo $slug; ?>_title.gif" />
             </div>
-            <div class="ts03">
+            <div class="cm01">
                 <p>三幸住研の３つの理想概念をご紹介いたします。</p>
                 <p>この理念をぶれることなく実践し、社員一同、お客様により信頼され、頼られる会社を目指します。</p>
             </div>

@@ -8,7 +8,8 @@ Author URI:felixtown
 Version:1.0
 */
 /* PC */
-@media screen and (min-width: 961px) {
+/*@media screen and (min-width: 961px) {*/
+@media screen and (min-width: 0px) {
 	/*ヘッダー*/
 	#header {
 		width: 960px;
@@ -862,7 +863,8 @@ Version:1.0
 }
   
 /* smartPhone */
-@media screen and (max-width: 960px) {
+/*@media screen and (max-width: 960px) {*/
+@media screen and (max-width: 0px) {
 	#header #headerR #headercontact,
 	#nav,
 	#footer #footermain #footerR #tel,

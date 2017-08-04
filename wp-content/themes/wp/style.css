@@ -9,7 +9,6 @@ Version:1.0
 */
 /* PC */
 /*@media screen and (min-width: 961px) {*/
-@media screen and (min-width: 1px) {
 	/*ヘッダー*/
 	#header {
 		width: 960px;
@@ -560,7 +559,7 @@ Version:1.0
 	}
 	/* company */
 	#wrapper #t02 #t02L .cm01 {
-		margin-top: 20px;
+		margin-top: 30px;
 		clear: both;
 	}
 	#wrapper #t02 #t02L .cm01 #outlineArea {
@@ -580,8 +579,8 @@ Version:1.0
 	}
 	#wrapper #t02 #t02L .cm01 dl {
 		clear: both;
-		margin-top: 20px;
-		height: 30px;
+		margin-top: 5px;
+		height: 40px;
 	}
 	#wrapper #t02 #t02L .cm01 dt {
 		float: left;
@@ -596,10 +595,14 @@ Version:1.0
 		margin-top: 30px;
 		margin-bottom: 100px;
 	}
-	#wrapper #t02 #t02L .cm03 img {
-		float: left;
+	#wrapper #t02 #t02L .cm03 {
+		height: 270px;
 	}
-	#wrapper #t02 #t02L .cm03 pre {
+	#wrapper #t02 #t02L .cm03 .cm03l {
+		float: left;
+		width: 250px;
+	}
+	#wrapper #t02 #t02L .cm03 p {
 		float: right;
 		width: 690px;
 		padding-left: 0;
@@ -864,7 +867,7 @@ Version:1.0
 	.slimmenu {
 		display: none !important;
 	}
-}
+/*}*/
   
 /* smartPhone */
 /*@media screen and (max-width: 0px) {

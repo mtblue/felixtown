@@ -9,7 +9,7 @@
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.11.1.min.js"></script>
 <meta charset="<?php bloginfo('charset'); ?>">
 <meta name="keywords" content="FELIX TOWN,住まいのパイオニアだからできること" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
 <title><?php wp_title ( '|', true,'right' ); ?><?php bloginfo('name'); ?></title>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/base.css"/>
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>"/>
@@ -64,6 +64,7 @@
             <li><a href="/trackrecord/"><img src="<?php echo get_template_directory_uri(); ?>/images/globalNavi0_05.jpg" width="192" height="50" alt="販売実績" /></a></li>
         </ul>
     </div>
+    <!--
     <ul class="slimmenu">
         <li><a href="#">フェリックスハウス</a></li>
         <li><a href="#">商品ラインナップ</a></li>
@@ -71,4 +72,5 @@
         <li><a href="#">会社案内</a></li>
         <li><a href="#">お客様の声</a></li>
     </ul>
+    -->
     <span class="mobileHidden"><?php breadcrumb(); ?></span>

@@ -83,25 +83,26 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/president_title.gif" />
                 </div>
                 <div class="cm03">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/president_img.jpg" />
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/president_img02.png" />
-                    <pre>
-当社は創業以来“お客様に幸せになっていただくこと”を事業の目的とし、
-北摂を中心に住まいづくりを提案しています。
-幸せと感じることは人それぞれです。
-
-皆さんが考える幸せの形の中に、家があり、そこでの暮らしがあるとしたら、
-私たちはご家族の想いに共感し、その想いを住まいというカタチにすることをお手伝い致します。
-
-そして、人生の中で大きな決断をする皆さんを支えることの出来る存在となるべく、
-お客様と共に、成長していきたいと考えております。
-
-近年中に弊社は創業５０周年を迎えます。しかし、まだまだ５０年と思っています。
-前を見て、少しずつでも前進し、１００周年に向かっていきます。
-
-施主様により良い家に住んで頂けるように日々努力を続けいていきます。
-施主様の笑顔の為に邁進していきます。
-                    </pre>
+                    <div class="cm03l">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/president_img.jpg" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/president_img02.png" />
+                    </div>
+                    <p>
+                        当社は創業以来“お客様に幸せになっていただくこと”を事業の目的とし、北摂を中心に住まいづくりを提案しています。<br />
+                        幸せと感じることは人それぞれです。<br />
+                        <br />
+                        皆さんが考える幸せの形の中に、家があり、そこでの暮らしがあるとしたら、<br />
+                        私たちはご家族の想いに共感し、その想いを住まいというカタチにすることをお手伝い致します。<br />
+                        <br />
+                        そして、人生の中で大きな決断をする皆さんを支えることの出来る存在となるべく、<br />
+                        お客様と共に、成長していきたいと考えております。<br />
+                        <br />
+                        近年中に弊社は創業５０周年を迎えます。しかし、まだまだ５０年と思っています。<br />
+                        前を見て、少しずつでも前進し、１００周年に向かっていきます。<br />
+                        <br />
+                        施主様により良い家に住んで頂けるように日々努力を続けいていきます。<br />
+                        施主様の笑顔の為に邁進していきます。
+                    </p>
                 </div>
             </div>
             <div class="cm01">

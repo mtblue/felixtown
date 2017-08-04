@@ -19,52 +19,43 @@
             	</div>
             	<table id="outlineArea">
                 	<tr>
-                    	<th>会社名</th><td>株式会社 三幸住研</td>
-                    </tr>
-                	<tr>
-                    	<th>所在地（本社）</th><td>〒560-0054　大阪府豊中市桜の町3丁目6-7</td>
-                    </tr>
-                	<tr>
-                    	<th>TEL</th><td>06-6844-0105</td>
-                    </tr>
-                	<tr>
-                    	<th>FAX</th><td>06-6844-1806</td>
-                    </tr>
-                	<tr>
-                    	<th>所在地（豊中北店）</th><td>〒560-0023　大阪府豊中市岡上の町4-3-30</td>
-                    </tr>
-                	<tr>
-                    	<th>TEL</th><td>06-4867-3000</td>
-                    </tr>
-                	<tr>
-                    	<th>FAX</th><td>06-4867-3100</td>
-                    </tr>
-                    <tr>
-                    	<th>代表取締役</th><td>福原 昌樹</td>
-                    </tr>
-                	<tr>
-                    	<th>会社創設</th><td>1971年7月19日</td>
-                    </tr>
-                	<tr>
-                    	<th>資本金</th><td>1,000万円</td>
-                    </tr>
-                	<tr>
-                    	<th>事業内容</th><td>一般建設業、建売業、不動産仲介業、賃貸業、不動産一般</td>
-                    </tr>
-                	<tr>
-                    	<th>建設業者登録免許</th><td>大阪府知事許可(般-24)第97074</td>
-                    </tr>
-                	<tr>
-                    	<th>宅地建物取引免許</th><td>大阪府知事免許(9)第25935</td>
-                    </tr>
-                	<tr>
-                    	<th>その他登録</th><td>(財)住宅保証機構/登録番号21019061<br />(株)日本住宅保証検査機構(JIO/)登録番号A5000930</td>
-                    </tr>
-                	<tr>
-                    	<th>所属団体</th><td>（社）大阪府宅地建物取引業協会<br />
-                        北摂不動産事業協同組合<br />（公社）近畿地区不動産公正取引協議会<br />
-                        関西不動産情報センター<br />（一社）京阪神木造住宅協議会</td>
-                    </tr>
+                        	<th>会社名</th><td>株式会社 三幸住研</td>
+                        </tr>
+                    	<tr>
+                        	<th>所在地（本社）</th><td>〒560-0054　大阪府豊中市桜の町3丁目6-7</td>
+                        </tr>
+                    	<tr>
+                        	<th>TEL</th><td>06-4867-3000（代表）　06-6844-0105</td>
+                        </tr>
+                    	<tr>
+                        	<th>FAX</th><td>06-4867-3100（代表）　06-6844-1806</td>
+                        </tr>
+                        <tr>
+                        	<th>代表取締役</th><td>福原 昌樹</td>
+                        </tr>
+                    	<tr>
+                        	<th>会社創設</th><td>1971年7月19日</td>
+                        </tr>
+                    	<tr>
+                        	<th>資本金</th><td>1,000万円</td>
+                        </tr>
+                    	<tr>
+                        	<th>事業内容</th><td>一般建設業、建売業、不動産仲介業、賃貸業、不動産一般</td>
+                        </tr>
+                    	<tr>
+                        	<th>建設業者登録免許</th><td>大阪府知事許可(般-24)第97074</td>
+                        </tr>
+                    	<tr>
+                        	<th>宅地建物取引免許</th><td>大阪府知事免許(9)第25935</td>
+                        </tr>
+                    	<tr>
+                        	<th>その他登録</th><td>(財)住宅保証機構/登録番号21019061<br />(株)日本住宅保証検査機構(JIO/)登録番号A5000930</td>
+                        </tr>
+                    	<tr>
+                        	<th>所属団体</th><td>（社）大阪府宅地建物取引業協会 大阪支部<br />
+                            北摂不動産事業協同組合<br />（公社）近畿地区不動産公正取引協議会<br />
+                            関西不動産情報センター<br />（一社）京阪神木造住宅協議会<br />ロイヤルハウス 北摂北店</td>
+                        </tr>
                 </table>
             </div>
             <div class="cm01">
@@ -93,24 +84,23 @@
                 </div>
                 <div class="cm03">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/president_img.jpg" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/president_img02.png" />
                     <pre>
-                    創業昭和４６年から、ずっと家づくりをして来ました。
-                    ずっといい家とはなんなのか考えています。
-                    答えは出ません・・・でもそれでいいと思います。
-                    最新の技術・商品を勉強し、常にベストの家づくりをしています。
-                    何が正しいのか間違いなのかをしっかり判断し施主様に最高の家を提供致します。
-                    いつまでも熱い気持ちで最高の仕事をする会社、それが弊社であります。
-                    
-                    また私が生まれ育ったこの豊中の地に少しでも力になりたい。
-                    地元の方にお世話になっていることを少しでも還元したい。
-                    その想いから地域貢献にも尽力をあげています。
-                    チャリティやたこ焼きイベントやガレージセールなど。
-                    まだまだ弊社にできる地域貢献はあると思います。色々なことにチャレンジしていきます。
-                    
-                    近年中に５０周年を迎えます。しかし、まだまだ５０年と思っています。
-                    前を見て、少しずつでも前進し、１００周年に向かっていきます。
-                    施主様により良い家に住んで頂けるように日々努力を続けいていきます。
-                    弊社はこれからもこの地で施主様の笑顔の為に邁進していきます。
+当社は創業以来“お客様に幸せになっていただくこと”を事業の目的とし、
+北摂を中心に住まいづくりを提案しています。
+幸せと感じることは人それぞれです。
+
+皆さんが考える幸せの形の中に、家があり、そこでの暮らしがあるとしたら、
+私たちはご家族の想いに共感し、その想いを住まいというカタチにすることをお手伝い致します。
+
+そして、人生の中で大きな決断をする皆さんを支えることの出来る存在となるべく、
+お客様と共に、成長していきたいと考えております。
+
+近年中に弊社は創業５０周年を迎えます。しかし、まだまだ５０年と思っています。
+前を見て、少しずつでも前進し、１００周年に向かっていきます。
+
+施主様により良い家に住んで頂けるように日々努力を続けいていきます。
+施主様の笑顔の為に邁進していきます。
                     </pre>
                 </div>
             </div>
@@ -123,15 +113,15 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/staff_motoyama.jpg" />
                     </li>
                     <li>
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/staff_muraoka.jpg" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/staff_yamauchi.jpg" />
                     </li>
                     <li>
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/staff_yamamura.jpg" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/staff_muraoka.jpg" />
                     </li>
                 </ul>
                 <ul>
                     <li>
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/staff_yamauchi.jpg" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/staff_yamamura.jpg" />
                     </li>
                     <li>
                         <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/staff_yoshida.jpg" />

@@ -9,7 +9,7 @@
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.11.1.min.js"></script>
 <meta charset="<?php bloginfo('charset'); ?>">
 <meta name="keywords" content="FELIX TOWN,住まいのパイオニアだからできること" />
-<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title><?php wp_title ( '|', true,'right' ); ?><?php bloginfo('name'); ?></title>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/base.css"/>
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>"/>
@@ -38,6 +38,22 @@
     });
 </script>
 <?php wp_head(); ?>
+<!--
+<script>
+/*
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45273377-2', 'auto');
+  ga('send', 'pageview');
+
+  ga('create', 'UA-56013916-2', 'auto', {'name': 'myTracker'});
+  ga('myTracker.send', 'pageview');
+*/
+</script>
+-->
 </head>
 
 <body <?php body_class(); ?>>
@@ -64,13 +80,11 @@
             <li><a href="/trackrecord/"><img src="<?php echo get_template_directory_uri(); ?>/images/globalNavi0_05.jpg" width="192" height="50" alt="販売実績" /></a></li>
         </ul>
     </div>
-    <!--
     <ul class="slimmenu">
-        <li><a href="#">フェリックスハウス</a></li>
-        <li><a href="#">商品ラインナップ</a></li>
-        <li><a href="#">施工事例</a></li>
-        <li><a href="#">会社案内</a></li>
-        <li><a href="#">お客様の声</a></li>
+        <li><a href="/">フェリックスタウン</a></li>
+        <li><a href="/series/">住まいシリーズ</a></li>
+        <li><a href="/flow/">契約の流れ</a></li>
+        <li><a href="/company/">会社案内</a></li>
+        <li><a href="/trackrecord/">販売実績</a></li>
     </ul>
-    -->
     <span class="mobileHidden"><?php breadcrumb(); ?></span>

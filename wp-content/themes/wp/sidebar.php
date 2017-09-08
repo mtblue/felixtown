@@ -16,4 +16,5 @@
                     <?php endif; endwhile; ?>
                 </ul>
                 <a href="/flier/"><img class="mobileHidden" src="<?php echo get_template_directory_uri(); ?>/images/flier_btn.gif" width="240" height="30" alt="WEBチラシ一覧" /></a>
+                <a href="/flier/"><img class="pcHidden" src="<?php echo get_template_directory_uri(); ?>/images/sp/flier_btn_sp.jpg" alt="WEBチラシ一覧" /></a>
         	</div>

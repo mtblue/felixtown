@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 <?php $slug = get_post($wp_query->post->ID)->post_name; ?>
 	<div id="wrapper">
+	    <div id="tw00">
     	<div id="t02">
 	    
     		<div id="t02L">
@@ -21,5 +22,6 @@
                 </div>
             </div>
         </div>
+    </div>
     </div>
 <?php get_footer(); ?>

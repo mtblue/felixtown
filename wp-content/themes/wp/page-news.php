@@ -2,7 +2,6 @@
 <?php $slug = get_post($wp_query->post->ID)->post_name; ?>
 	<div id="wrapper">
     	<div id="t02">
-	    
     		<div id="t02L">
                 <div class="ptitle">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/<?php echo $slug; ?>_title.gif" />

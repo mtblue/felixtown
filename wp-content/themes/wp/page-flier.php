@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 <?php $slug = get_post($wp_query->post->ID)->post_name; ?>
 	<div id="wrapper">
+	    <div id="tw00">
     	<div id="t02">
     		<div id="t02L">
                 <div class="ptitle">
@@ -18,10 +19,10 @@
                                 <?php endif; ?>
                             <?php endif; ?>
                             <?php if(get_post_meta($post->ID,'コメント',true)): ?>
-                                <?php $comsrc1 = get_post_meta($post->ID,"コメント",true); ?>
+                                <?php $comsrc1 = nl2br(get_post_meta($post->ID,"コメント",true)); ?>
                                 <li class="wfr">
                                     <div><?php the_time('Y.m.d'); ?></div>
-                                    <pre><?php echo $comsrc1; ?></pre>
+                                    <p><?php echo $comsrc1; ?></p>
                                 </li>
                         </ul>
                         <?php endif; endwhile; ?>
@@ -29,5 +30,6 @@
                 </div>
             </div>
         </div>
+    </div>
     </div>
 <?php get_footer(); ?>

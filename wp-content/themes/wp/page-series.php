@@ -11,7 +11,8 @@
                     <p>三幸住研の経験と実績をご紹介。</p>
                 </div>
                 <div class="t03">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/series_main.jpg" />
+                    <img class="mobileHidden" src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/series_main.jpg" />
+                    <img class="pcHidden" src="<?php echo get_template_directory_uri(); ?>/images/sp/<?php echo $slug; ?>/series_main_sp.jpg" />
                 </div>
                 <div class="se01">
                     <div class="ptitle2">
@@ -98,5 +99,5 @@
                 </div>
             </div>
         </div>
-    </div>>
+    </div>
 <?php get_footer(); ?>

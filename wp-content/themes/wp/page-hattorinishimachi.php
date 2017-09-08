@@ -6,19 +6,19 @@
     		<div id="t02L">
                 <div class="t03">
                     <div class="ptitle2">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/landplan_title.gif" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/landplan_title.gif" id="landplan" />
                     </div>
                     <div class="tw02">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/landplan.jpg" />
                     </div>
                     <div class="ptitle2">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/plan_title.gif" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/plan_title.gif" id="plan" />
                     </div>
                     <div class="tw02">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/plan.jpg" />
                     </div>
                     <div class="ptitle2">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/location_title.gif" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/location_title.gif" id="location" />
                     </div>
                     <div class="tw02">
                         <p class="ptitle3">都市アクセスも自然環境も揃う快適ロケーション。</p>
@@ -141,13 +141,14 @@
                         </div>
                     </div>
                     <div class="ptitle2">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/map_title.gif" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/map_title.gif" id="map" />
                     </div>
                     <div class="tw02">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/map.jpg" />
+						<a href="https://goo.gl/maps/i7XMHreejPQ2" target="_blank">googleMAPはこちら</a>
                     </div>
                     <div class="ptitle2">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/outline_title.gif" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/outline_title.gif" id="outline" />
                     </div>
                     <div class="tw02">
                         <table>
@@ -198,10 +199,10 @@
                     </div>
                     <div class="tw02">
                         <ul class="tw03">
-                            <li><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/town_btn01.gif" /></li>
-                            <li><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/town_btn02.gif" /></li>
-                            <li><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/town_btn03.gif" /></li>
-                            <li><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/town_btn04.gif" /></li>
+                            <li><a href="/contact/"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/town_btn01.gif" /></a></li>
+                            <li><a href="/contact/"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/town_btn02.gif" /></a></li>
+                            <li><a href="https://www.facebook.com/sankoujyuken" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/town_btn03.gif" /></a></li>
+                            <li><a href="http://sankoujyuken.jp/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/town_btn04.gif" /></a></li>
                         </ul>
                     </div>
                 </div>

@@ -13,7 +13,8 @@
                 <p>この理念をぶれることなく実践し、社員一同、お客様により信頼され、頼られる会社を目指します。</p>
             </div>
             <div class="cm01">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/company_img01.jpg" />
+                <img class="mobileHidden" src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/company_img01.jpg" />
+                <img class="pcHidden" src="<?php echo get_template_directory_uri(); ?>/images/sp/<?php echo $slug; ?>/company_img01_sp.jpg" />
             </div>
             <div class="cm01">
                 <div class="cm00">

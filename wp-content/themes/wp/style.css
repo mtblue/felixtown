@@ -1212,6 +1212,8 @@ Version:1.0
 		border: none;
 		margin-top: 40px;
 	}
+	#wrapper #t02 #t02L .cm00 .ptitle,
+	#wrapper #t02 #t02L .cm00 .ptitle2,
 	#wrapper #tw00 #t02 #t02L .ptitle2 {
 	    border-bottom: 5px solid #E6E0F8;
 		padding-bottom: 5px;
@@ -1276,10 +1278,14 @@ Version:1.0
 		line-height: 1.2em	;
 		font-family:"Roboto Slab" , Garamond , "Times New Roman" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝"
 	}
+	#wrapper #t02 #t02L .tr01 dl,
+	#wrapper #t02 #t02L .cm01 dl,
 	#wrapper #t02 #t02L .tw02 dl {
 		 border-bottom: 1px solid gray;
 		 text-align: center;
 	}
+	#wrapper #t02 #t02L .cm01 dt,
+	#wrapper #t02 #t02L .tr01 dt,
 	#wrapper #t02 #t02L .tw02 dt {
 		 border-top: 1px solid gray;
 		 border-right: 1px solid gray;
@@ -1287,6 +1293,7 @@ Version:1.0
 		 padding: 5px;
 		 font-weight: bold;
 	}
+	#wrapper #t02 #t02L .cm01 dd,
 	#wrapper #t02 #t02L .tw02 dd {
 		 border-top: 1px solid gray;
 		 border-right: 1px solid gray;
@@ -1331,6 +1338,73 @@ Version:1.0
 	}
 	#footertown #logo {
 		float: left;
+	}
+	/* company */
+	#wrapper #t02 #t02L .cm01 {
+		margin-top: 30px;
+	}
+	#wrapper #t02 #t02L .cm01 #outlineArea {
+		width: 100%;
+	}
+	#wrapper #t02 #t02L .cm01 ul {
+	}
+	#wrapper #t02 #t02L .cm01 li {
+		margin-top: 10px;
+		margin-bottom: 30px;
+	}
+	#wrapper #t02 #t02L .cm01 li:last-child {
+		margin-right: 0;
+	}
+	#wrapper #t02 #t02L .cm01 .cm04 dl {
+		margin-top: 5px;
+		border: none;
+	}
+	#wrapper #t02 #t02L .cm01 .cm04 dt {
+		padding-top: 2px;
+		border: none;
+		text-align: left;
+	}
+	#wrapper #t02 #t02L .cm01 .cm04 dt img {
+		width: auto;
+	}
+	#wrapper #t02 #t02L .cm01 .cm04 dd {
+		width: 100%;
+		text-align: left;
+		border: none;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	#wrapper #t02 #t02L .cm02 {
+		margin-top: 30px;
+		margin-bottom: 100px;
+	}
+	#wrapper #t02 #t02L .cm03 {
+	}
+	#wrapper #t02 #t02L .cm03 .cm03l {
+	}
+	#wrapper #t02 #t02L .cm03 p {
+		padding-left: 0;
+		border-left: 0;
+	}
+	/* trackrecord */
+	#wrapper #t02 #t02L .tr01 {
+		margin-top: 20px;
+	}
+	#wrapper #t02 #t02L .tr01 dd {
+		 border-top: 1px solid gray;
+		 border-right: 1px solid gray;
+		 border-left: 1px solid gray;
+		 padding: 7px;
+		 text-align: left;
+	}
+	#wrapper #t02 #t02L .tr01 p {
+		font-size: 1.7em;
+		line-height: 1.7em;
+		text-align: center;
+		color: #02104F;
+		margin-top: 20px;
+		margin-bottom: 30px;
+		font-family:"Roboto Slab" , Garamond , "Times New Roman" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝"
 	}
 	/* news */
 	#wrapper #t02 #t02L .ns01 {
